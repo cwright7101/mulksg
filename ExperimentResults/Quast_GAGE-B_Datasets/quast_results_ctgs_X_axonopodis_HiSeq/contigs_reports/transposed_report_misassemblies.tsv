@@ -1,0 +1,3 @@
+Assembly	# misassemblies	  # contig misassemblies	    # c. relocations	    # c. translocations	    # c. inversions	  # scaffold misassemblies	    # s. relocations	    # s. translocations	    # s. inversions	# misassembled contigs	Misassembled contigs length	# local misassemblies	# scaffold gap ext. mis.	# scaffold gap loc. mis.	# unaligned mis. contigs	# mismatches	# indels	    # indels (<= 5 bp)	    # indels (> 5 bp)	Indels length
+spades_ctg	36	36	36	0	0	0	0	0	0	17	2455242	479	0	0	26	112143	1368	1232	136	3804
+mulksg_ctg	37	37	37	0	0	0	0	0	0	18	2496606	487	0	0	25	112261	1370	1234	136	3810

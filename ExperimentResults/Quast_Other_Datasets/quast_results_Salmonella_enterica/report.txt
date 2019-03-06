@@ -1,0 +1,53 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     SPAdes_contigs  SPAdes_scaffolds  MULKSG_contigs  MULKSG_scaffolds
+# contigs (>= 0 bp)          166             159               182             176             
+# contigs (>= 1000 bp)       37              30                36              30              
+# contigs (>= 5000 bp)       28              24                27              24              
+# contigs (>= 10000 bp)      28              23                27              23              
+# contigs (>= 25000 bp)      25              21                24              21              
+# contigs (>= 50000 bp)      22              18                21              18              
+Total length (>= 0 bp)       4771184         4771678           4779243         4779727         
+Total length (>= 1000 bp)    4726941         4727435           4726595         4727079         
+Total length (>= 5000 bp)    4709174         4715752           4708828         4715396         
+Total length (>= 10000 bp)   4709174         4709468           4708828         4709112         
+Total length (>= 25000 bp)   4668914         4679975           4668291         4679342         
+Total length (>= 50000 bp)   4561040         4572101           4560417         4571468         
+# contigs                    49              42                53              47              
+Largest contig               705817          705817            705817          705817          
+Total length                 4734964         4735458           4737818         4738302         
+Reference length             4951383         4951383           4951383         4951383         
+GC (%)                       52.12           52.12             52.10           52.10           
+Reference GC (%)             52.24           52.24             52.24           52.24           
+N50                          246935          433838            310911          433838          
+NG50                         246935          433838            310911          433838          
+N75                          153281          171173            153281          171173          
+NG75                         124257          167721            124257          167721          
+L50                          6               5                 5               5               
+LG50                         6               5                 5               5               
+L75                          12              9                 11              9               
+LG75                         13              10                12              10              
+# misassemblies              53              53                53              53              
+# misassembled contigs       22              19                21              19              
+Misassembled contigs length  4233325         4555297           4232979         4554941         
+# local misassemblies        65              66                65              66              
+# scaffold gap ext. mis.     0               0                 0               0               
+# scaffold gap loc. mis.     0               6                 0               5               
+# unaligned mis. contigs     0               0                 0               0               
+# unaligned contigs          10 + 18 part    10 + 17 part      15 + 18 part    15 + 17 part    
+Unaligned length             248817          249797            252467          252865          
+Genome fraction (%)          90.489          90.496            90.491          90.496          
+Duplication ratio            1.001           1.001             1.001           1.001           
+# N's per 100 kbp            0.00            12.37             0.00            12.39           
+# mismatches per 100 kbp     917.74          917.56            917.03          916.87          
+# indels per 100 kbp         16.25           16.25             16.29           16.29           
+Largest alignment            310029          405332            310029          405330          
+Total aligned length         4482739         4483011           4482635         4482491         
+NA50                         95230           116044            95357           116044          
+NGA50                        89573           107332            95230           107332          
+NA75                         44295           49935             44295           49935           
+NGA75                        41866           43685             41866           43685           
+LA50                         15              13                14              13              
+LGA50                        16              14                15              14              
+LA75                         32              28                31              28              
+LGA75                        36              32                35              32              

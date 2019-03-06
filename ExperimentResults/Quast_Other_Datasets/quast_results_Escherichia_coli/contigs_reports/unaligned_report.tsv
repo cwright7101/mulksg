@@ -1,0 +1,6 @@
+Assembly	SPAdes_contigs	SPAdes_scaffolds	MULKSG_contigs	MULKSG_scaffolds
+# fully unaligned contigs	27	26	26	25
+Fully unaligned length	86041	82434	85500	81893
+# partially unaligned contigs	50	50	51	51
+Partially unaligned length	805747	809584	806625	810425
+# N's	0	217	0	207

@@ -1,0 +1,145 @@
+./quast-5.0.2/quast.py -R /files0/wrig522/TestData2/Salmonella_enterica/reference.fa Expr_1-11-2019-TestData2/spades_Salmonella_enterica/contigs.fasta Expr_1-11-2019-TestData2/spades_Salmonella_enterica/scaffolds.fasta Expr_1-11-2019-TestData2/mulksg_Salmonella_enterica/contigs.fasta Expr_1-11-2019-TestData2/mulksg_Salmonella_enterica/scaffolds.fasta -l "SPAdes_contigs, SPAdes_scaffolds, MULKSG_contigs, MULKSG_scaffolds" -o Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica
+
+Version: 5.0.2, 0bb1dd1b
+
+System information:
+  OS: Linux-4.13.0-38-generic-x86_64-with-Ubuntu-17.10-artful (linux_64)
+  Python version: 2.7.14
+  CPUs number: 40
+
+Started: 2019-01-11 09:22:38
+
+Logging to /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/quast.log
+NOTICE: Maximum number of threads is set to 10 (use --threads option to set it manually)
+
+CWD: /home/wrig522/mulksg
+Main parameters: 
+  MODE: default, threads: 10, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Reference:
+  /files0/wrig522/TestData2/Salmonella_enterica/reference.fa ==> reference
+
+Contigs:
+  Pre-processing...
+  1  Expr_1-11-2019-TestData2/spades_Salmonella_enterica/contigs.fasta ==> SPAdes_contigs
+  2  Expr_1-11-2019-TestData2/spades_Salmonella_enterica/scaffolds.fasta ==> SPAdes_scaffolds
+  3  Expr_1-11-2019-TestData2/mulksg_Salmonella_enterica/contigs.fasta ==> MULKSG_contigs
+  4  Expr_1-11-2019-TestData2/mulksg_Salmonella_enterica/scaffolds.fasta ==> MULKSG_scaffolds
+
+2019-01-11 09:22:39
+Running Basic statistics processor...
+  Reference genome:
+    reference.fa, length = 4951383, num fragments = 2, GC % = 52.24
+  Contig files: 
+    1  SPAdes_contigs
+    2  SPAdes_scaffolds
+    3  MULKSG_contigs
+    4  MULKSG_scaffolds
+  Calculating N50 and L50...
+    1  SPAdes_contigs, N50 = 246935, L50 = 6, Total length = 4734964, GC % = 52.12, # N's per 100 kbp =  0.00
+    2  SPAdes_scaffolds, N50 = 433838, L50 = 5, Total length = 4735458, GC % = 52.12, # N's per 100 kbp =  12.37
+    3  MULKSG_contigs, N50 = 310911, L50 = 5, Total length = 4737818, GC % = 52.10, # N's per 100 kbp =  0.00
+    4  MULKSG_scaffolds, N50 = 433838, L50 = 5, Total length = 4738302, GC % = 52.10, # N's per 100 kbp =  12.39
+Done.
+
+2019-01-11 09:22:40
+Running Contig analyzer...
+  1  SPAdes_contigs
+  2  SPAdes_scaffolds
+  3  MULKSG_contigs
+  1  Logging to files /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/contigs_report_SPAdes_contigs.stdout and contigs_report_SPAdes_contigs.stderr...
+  3  Logging to files /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/contigs_report_MULKSG_contigs.stdout and contigs_report_MULKSG_contigs.stderr...
+  2  Logging to files /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/contigs_report_SPAdes_scaffolds.stdout and contigs_report_SPAdes_scaffolds.stderr...
+  1  Aligning contigs to the reference
+  3  Aligning contigs to the reference
+  2  Aligning contigs to the reference
+  4  MULKSG_scaffolds
+  4  Logging to files /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/contigs_report_MULKSG_scaffolds.stdout and contigs_report_MULKSG_scaffolds.stderr...
+  4  Aligning contigs to the reference
+  1  quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join \
+     -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 2 Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/quast_corrected_input/reference.fa \
+     Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/quast_corrected_input/SPAdes_contigs.fasta \
+     > Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/minimap_output/SPAdes_contigs.coords_tmp \
+     2>> Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/contigs_report_SPAdes_contigs.stderr
+  3  quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join \
+     -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 2 Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/quast_corrected_input/reference.fa \
+     Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/quast_corrected_input/MULKSG_contigs.fasta \
+     > Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/minimap_output/MULKSG_contigs.coords_tmp \
+     2>> Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/contigs_report_MULKSG_contigs.stderr
+  2  quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join \
+     -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 2 Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/quast_corrected_input/reference.fa \
+     Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/quast_corrected_input/SPAdes_scaffolds.fasta \
+     > Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/minimap_output/SPAdes_scaffolds.coords_tmp \
+     2>> Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/contigs_report_SPAdes_scaffolds.stderr
+  4  quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join \
+     -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs \
+     -t 2 Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/quast_corrected_input/reference.fa \
+     Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/quast_corrected_input/MULKSG_scaffolds.fasta \
+     > Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/minimap_output/MULKSG_scaffolds.coords_tmp \
+     2>> Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/contigs_report_MULKSG_scaffolds.stderr
+  3  Analysis is finished.
+
+  4  Analysis is finished.
+
+  2  Analysis is finished.
+
+  1  Analysis is finished.
+
+  Creating total report...
+    saved to /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2019-01-11 09:22:42
+Running NA-NGA calculation...
+  1  SPAdes_contigs, Largest alignment = 310029, NA50 = 95230, NGA50 = 89573, LA50 = 15, LGA50 = 16
+  2  SPAdes_scaffolds, Largest alignment = 405332, NA50 = 116044, NGA50 = 107332, LA50 = 13, LGA50 = 14
+  3  MULKSG_contigs, Largest alignment = 310029, NA50 = 95357, NGA50 = 95230, LA50 = 14, LGA50 = 15
+  4  MULKSG_scaffolds, Largest alignment = 405330, NA50 = 116044, NGA50 = 107332, LA50 = 13, LGA50 = 14
+Done.
+
+2019-01-11 09:22:42
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  1  SPAdes_contigs
+  2  SPAdes_scaffolds
+  3  MULKSG_contigs
+  4  MULKSG_scaffolds
+  3  Analysis is finished.
+  1  Analysis is finished.
+  4  Analysis is finished.
+  2  Analysis is finished.
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2019-01-11 09:22:44
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2019-01-11 09:22:44
+RESULTS:
+  Text versions of total report are saved to /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/report.html
+  Icarus (contig browser) is saved to /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/icarus.html
+  Log is saved to /home/wrig522/mulksg/Expr_1-11-2019-TestData2/quast_results_Salmonella_enterica/quast.log
+
+Finished: 2019-01-11 09:22:44
+Elapsed time: 0:00:05.852081
+NOTICEs: 4; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

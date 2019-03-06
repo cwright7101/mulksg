@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     SPAdes_contigs  SPAdes_scaffolds  MULKSG_contigs  MULKSG_scaffolds
+# misassemblies              69              69                69              69              
+  # contig misassemblies     69              69                69              69              
+    # c. relocations         69              69                69              69              
+    # c. translocations      0               0                 0               0               
+    # c. inversions          0               0                 0               0               
+  # scaffold misassemblies   0               0                 0               0               
+    # s. relocations         0               0                 0               0               
+    # s. translocations      0               0                 0               0               
+    # s. inversions          0               0                 0               0               
+# misassembled contigs       30              30                30              30              
+Misassembled contigs length  3861998         3862256           3834370         3834628         
+# local misassemblies        59              59                60              60              
+# scaffold gap ext. mis.     0               0                 0               0               
+# scaffold gap loc. mis.     0               1                 0               1               
+# unaligned mis. contigs     12              12                12              12              
+# mismatches                 32653           32657             32673           32676           
+# indels                     502             502               502             502             
+    # indels (<= 5 bp)       419             419               419             419             
+    # indels (> 5 bp)        83              83                83              83              
+Indels length                3225            3225              3225            3225            

@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     spades_ctg  mulksg_ctg
+# misassemblies              6           6         
+  # contig misassemblies     6           6         
+    # c. relocations         6           6         
+    # c. translocations      0           0         
+    # c. inversions          0           0         
+  # scaffold misassemblies   0           0         
+    # s. relocations         0           0         
+    # s. translocations      0           0         
+    # s. inversions          0           0         
+# misassembled contigs       3           3         
+Misassembled contigs length  366493      366493    
+# local misassemblies        45          45        
+# scaffold gap ext. mis.     0           0         
+# scaffold gap loc. mis.     0           0         
+# unaligned mis. contigs     17          17        
+# mismatches                 74238       74236     
+# indels                     699         699       
+    # indels (<= 5 bp)       637         637       
+    # indels (> 5 bp)        62          62        
+Indels length                2021        2021      

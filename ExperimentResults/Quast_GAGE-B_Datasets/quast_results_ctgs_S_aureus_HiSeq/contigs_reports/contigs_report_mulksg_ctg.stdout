@@ -1,0 +1,351 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [gi_161510924_ref_NC_010063.1_]
+	Total Regions: 1
+	Total Region Length: 27041
+Analyzing contigs...
+CONTIG: NODE_1_length_381434_cov_21.417907 (381434bp)
+Best alignment score: 784.0 (LEN: 790, IDY: 99.24), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 1317.8, number of alignments: 2, unaligned bases: 379854
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 1580 out of 381434 non-N bases (0.41%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 381434 (number of Ns: 0) and total length of all aligns is 1580
+		Alignment: 12451 13240 | 364934 364145 | 790 790 | 99.24 | gi_161510924_ref_NC_010063.1_ NODE_1_length_381434_cov_21.417907
+		Alignment: 12451 13240 | 370280 369491 | 790 790 | 99.24 | gi_161510924_ref_NC_010063.1_ NODE_1_length_381434_cov_21.417907
+		Unaligned bases: 379854
+
+CONTIG: NODE_2_length_349841_cov_20.311004 (349841bp)
+		This contig is unaligned. (349841 bp)
+		Unaligned bases: 349841 (number of Ns: 0)
+
+CONTIG: NODE_3_length_324202_cov_15.473214 (324202bp)
+		This contig is unaligned. (324202 bp)
+		Unaligned bases: 324202 (number of Ns: 0)
+
+CONTIG: NODE_4_length_243974_cov_15.996748 (243974bp)
+		This contig is unaligned. (243974 bp)
+		Unaligned bases: 243974 (number of Ns: 0)
+
+CONTIG: NODE_5_length_242064_cov_18.868414 (242064bp)
+		This contig is unaligned. (242064 bp)
+		Unaligned bases: 242064 (number of Ns: 0)
+
+CONTIG: NODE_6_length_222090_cov_16.167813 (222090bp)
+		This contig is unaligned. (222090 bp)
+		Unaligned bases: 222090 (number of Ns: 0)
+
+CONTIG: NODE_7_length_185185_cov_15.147392 (185185bp)
+		This contig is unaligned. (185185 bp)
+		Unaligned bases: 185185 (number of Ns: 0)
+
+CONTIG: NODE_8_length_176606_cov_17.052024 (176606bp)
+		This contig is unaligned. (176606 bp)
+		Unaligned bases: 176606 (number of Ns: 0)
+
+CONTIG: NODE_9_length_122619_cov_18.407489 (122619bp)
+		This contig is unaligned. (122619 bp)
+		Unaligned bases: 122619 (number of Ns: 0)
+
+CONTIG: NODE_10_length_92545_cov_20.909001 (92545bp)
+		This contig is unaligned. (92545 bp)
+		Unaligned bases: 92545 (number of Ns: 0)
+
+CONTIG: NODE_11_length_56153_cov_17.408598 (56153bp)
+		This contig is unaligned. (56153 bp)
+		Unaligned bases: 56153 (number of Ns: 0)
+
+CONTIG: NODE_12_length_53357_cov_19.222007 (53357bp)
+		This contig is unaligned. (53357 bp)
+		Unaligned bases: 53357 (number of Ns: 0)
+
+CONTIG: NODE_13_length_49930_cov_17.383550 (49930bp)
+		This contig is unaligned. (49930 bp)
+		Unaligned bases: 49930 (number of Ns: 0)
+
+CONTIG: NODE_14_length_49353_cov_17.501056 (49353bp)
+		This contig is unaligned. (49353 bp)
+		Unaligned bases: 49353 (number of Ns: 0)
+
+CONTIG: NODE_15_length_39146_cov_19.831153 (39146bp)
+		This contig is unaligned. (39146 bp)
+		Unaligned bases: 39146 (number of Ns: 0)
+
+CONTIG: NODE_16_length_34966_cov_15.385513 (34966bp)
+		This contig is unaligned. (34966 bp)
+		Unaligned bases: 34966 (number of Ns: 0)
+
+CONTIG: NODE_17_length_34708_cov_19.326621 (34708bp)
+		This contig is unaligned. (34708 bp)
+		Unaligned bases: 34708 (number of Ns: 0)
+
+CONTIG: NODE_18_length_33264_cov_17.158331 (33264bp)
+		This contig is unaligned. (33264 bp)
+		Unaligned bases: 33264 (number of Ns: 0)
+
+CONTIG: NODE_19_length_27346_cov_33.773053 (27346bp)
+Best alignment score: 4007.5 (LEN: 4181, IDY: 95.85), Total number of alignments: 9
+			Looking for the best set of alignments (out of 9 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1459 1538 | 324 245 | 80 80 | 96.25 | gi_161510924_ref_NC_010063.1_ NODE_19_length_27346_cov_33.773053
+		Skipping redundant alignment 26034 26143 | 1001 1110 | 110 110 | 95.5 | gi_161510924_ref_NC_010063.1_ NODE_19_length_27346_cov_33.773053
+		Skipping redundant alignment 2231 2388 | 6448 6291 | 158 158 | 96.84 | gi_161510924_ref_NC_010063.1_ NODE_19_length_27346_cov_33.773053
+		Skipping redundant alignment 4274 4433 | 6452 6293 | 160 160 | 97.5 | gi_161510924_ref_NC_010063.1_ NODE_19_length_27346_cov_33.773053
+			The best set is below. Score: 6888.3, number of alignments: 5, unaligned bases: 19461
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 7885 out of 27346 non-N bases (28.83%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 27346 (number of Ns: 0) and total length of all aligns is 7885
+		Alignment: 1142 1516 | 3156 3530 | 375 375 | 97.07 | gi_161510924_ref_NC_010063.1_ NODE_19_length_27346_cov_33.773053
+		Alignment: 4274 5512 | 4617 5856 | 1239 1240 | 99.27 | gi_161510924_ref_NC_010063.1_ NODE_19_length_27346_cov_33.773053
+		Alignment: 5497 5637 | 9046 9186 | 141 141 | 98.58 | gi_161510924_ref_NC_010063.1_ NODE_19_length_27346_cov_33.773053
+		Alignment: 7614 11806 | 11090 15270 | 4193 4181 | 95.85 | gi_161510924_ref_NC_010063.1_ NODE_19_length_27346_cov_33.773053
+		Alignment: 5621 7540 | 18189 16242 | 1920 1948 | 97.33 | gi_161510924_ref_NC_010063.1_ NODE_19_length_27346_cov_33.773053
+		Unaligned bases: 19461
+
+CONTIG: NODE_20_length_21807_cov_40.406972 (21807bp)
+		This contig is unaligned. (21807 bp)
+		Unaligned bases: 21807 (number of Ns: 0)
+
+CONTIG: NODE_21_length_21285_cov_15.551482 (21285bp)
+		This contig is unaligned. (21285 bp)
+		Unaligned bases: 21285 (number of Ns: 0)
+
+CONTIG: NODE_22_length_20245_cov_18.104853 (20245bp)
+		This contig is unaligned. (20245 bp)
+		Unaligned bases: 20245 (number of Ns: 0)
+
+CONTIG: NODE_23_length_12422_cov_17.052072 (12422bp)
+		This contig is unaligned. (12422 bp)
+		Unaligned bases: 12422 (number of Ns: 0)
+
+CONTIG: NODE_24_length_6066_cov_38.233886 (6066bp)
+		This contig is unaligned. (6066 bp)
+		Unaligned bases: 6066 (number of Ns: 0)
+
+CONTIG: NODE_25_length_5558_cov_19.333394 (5558bp)
+		This contig is unaligned. (5558 bp)
+		Unaligned bases: 5558 (number of Ns: 0)
+
+CONTIG: NODE_26_length_4880_cov_19.439524 (4880bp)
+		This contig is unaligned. (4880 bp)
+		Unaligned bases: 4880 (number of Ns: 0)
+
+CONTIG: NODE_27_length_4448_cov_19.950631 (4448bp)
+		This contig is unaligned. (4448 bp)
+		Unaligned bases: 4448 (number of Ns: 0)
+
+CONTIG: NODE_28_length_2659_cov_15.894778 (2659bp)
+		This contig is unaligned. (2659 bp)
+		Unaligned bases: 2659 (number of Ns: 0)
+
+CONTIG: NODE_29_length_2640_cov_20.800942 (2640bp)
+		This contig is unaligned. (2640 bp)
+		Unaligned bases: 2640 (number of Ns: 0)
+
+CONTIG: NODE_30_length_2246_cov_20.551788 (2246bp)
+		This contig is unaligned. (2246 bp)
+		Unaligned bases: 2246 (number of Ns: 0)
+
+CONTIG: NODE_31_length_1709_cov_0.415223 (1709bp)
+		This contig is unaligned. (1709 bp)
+		Unaligned bases: 1709 (number of Ns: 0)
+
+CONTIG: NODE_32_length_1641_cov_113.773902 (1641bp)
+		This contig is unaligned. (1641 bp)
+		Unaligned bases: 1641 (number of Ns: 0)
+
+CONTIG: NODE_33_length_1593_cov_121.374000 (1593bp)
+		This contig is unaligned. (1593 bp)
+		Unaligned bases: 1593 (number of Ns: 0)
+
+CONTIG: NODE_34_length_1501_cov_121.127841 (1501bp)
+		This contig is unaligned. (1501 bp)
+		Unaligned bases: 1501 (number of Ns: 0)
+
+CONTIG: NODE_35_length_1412_cov_0.231994 (1412bp)
+		This contig is unaligned. (1412 bp)
+		Unaligned bases: 1412 (number of Ns: 0)
+
+CONTIG: NODE_36_length_1398_cov_0.296552 (1398bp)
+		This contig is unaligned. (1398 bp)
+		Unaligned bases: 1398 (number of Ns: 0)
+
+CONTIG: NODE_37_length_1249_cov_0.441176 (1249bp)
+		This contig is unaligned. (1249 bp)
+		Unaligned bases: 1249 (number of Ns: 0)
+
+CONTIG: NODE_38_length_1082_cov_0.341759 (1082bp)
+		This contig is unaligned. (1082 bp)
+		Unaligned bases: 1082 (number of Ns: 0)
+
+CONTIG: NODE_39_length_1061_cov_0.240702 (1061bp)
+		This contig is unaligned. (1061 bp)
+		Unaligned bases: 1061 (number of Ns: 0)
+
+CONTIG: NODE_40_length_1007_cov_0.373085 (1007bp)
+		This contig is unaligned. (1007 bp)
+		Unaligned bases: 1007 (number of Ns: 0)
+
+CONTIG: NODE_41_length_934_cov_0.291320 (934bp)
+		This contig is unaligned. (934 bp)
+		Unaligned bases: 934 (number of Ns: 0)
+
+CONTIG: NODE_42_length_890_cov_0.248432 (890bp)
+		This contig is unaligned. (890 bp)
+		Unaligned bases: 890 (number of Ns: 0)
+
+CONTIG: NODE_43_length_835_cov_113.238544 (835bp)
+		This contig is unaligned. (835 bp)
+		Unaligned bases: 835 (number of Ns: 0)
+
+CONTIG: NODE_44_length_765_cov_0.132440 (765bp)
+		This contig is unaligned. (765 bp)
+		Unaligned bases: 765 (number of Ns: 0)
+
+CONTIG: NODE_45_length_728_cov_0.314961 (728bp)
+		This contig is unaligned. (728 bp)
+		Unaligned bases: 728 (number of Ns: 0)
+
+CONTIG: NODE_46_length_727_cov_0.244479 (727bp)
+		This contig is unaligned. (727 bp)
+		Unaligned bases: 727 (number of Ns: 0)
+
+CONTIG: NODE_47_length_718_cov_0.268800 (718bp)
+		This contig is unaligned. (718 bp)
+		Unaligned bases: 718 (number of Ns: 0)
+
+CONTIG: NODE_48_length_676_cov_110.615780 (676bp)
+		This contig is unaligned. (676 bp)
+		Unaligned bases: 676 (number of Ns: 0)
+
+CONTIG: NODE_49_length_660_cov_0.209877 (660bp)
+		This contig is unaligned. (660 bp)
+		Unaligned bases: 660 (number of Ns: 0)
+
+CONTIG: NODE_50_length_650_cov_0.222621 (650bp)
+		This contig is unaligned. (650 bp)
+		Unaligned bases: 650 (number of Ns: 0)
+
+CONTIG: NODE_51_length_638_cov_0.137615 (638bp)
+		This contig is unaligned. (638 bp)
+		Unaligned bases: 638 (number of Ns: 0)
+
+CONTIG: NODE_52_length_625_cov_44.406015 (625bp)
+		This contig is unaligned. (625 bp)
+		Unaligned bases: 625 (number of Ns: 0)
+
+CONTIG: NODE_53_length_624_cov_0.423729 (624bp)
+		This contig is unaligned. (624 bp)
+		Unaligned bases: 624 (number of Ns: 0)
+
+CONTIG: NODE_54_length_617_cov_0.282443 (617bp)
+		This contig is unaligned. (617 bp)
+		Unaligned bases: 617 (number of Ns: 0)
+
+CONTIG: NODE_55_length_610_cov_0.158607 (610bp)
+		This contig is unaligned. (610 bp)
+		Unaligned bases: 610 (number of Ns: 0)
+
+CONTIG: NODE_56_length_598_cov_0.180198 (598bp)
+		This contig is unaligned. (598 bp)
+		Unaligned bases: 598 (number of Ns: 0)
+
+CONTIG: NODE_57_length_594_cov_0.269461 (594bp)
+		This contig is unaligned. (594 bp)
+		Unaligned bases: 594 (number of Ns: 0)
+
+CONTIG: NODE_58_length_590_cov_0.271630 (590bp)
+		This contig is unaligned. (590 bp)
+		Unaligned bases: 590 (number of Ns: 0)
+
+CONTIG: NODE_59_length_584_cov_0.270876 (584bp)
+		This contig is unaligned. (584 bp)
+		Unaligned bases: 584 (number of Ns: 0)
+
+CONTIG: NODE_60_length_580_cov_34.168378 (580bp)
+		This contig is unaligned. (580 bp)
+		Unaligned bases: 580 (number of Ns: 0)
+
+CONTIG: NODE_61_length_572_cov_0.183716 (572bp)
+		This contig is unaligned. (572 bp)
+		Unaligned bases: 572 (number of Ns: 0)
+
+CONTIG: NODE_62_length_558_cov_0.258065 (558bp)
+		This contig is unaligned. (558 bp)
+		Unaligned bases: 558 (number of Ns: 0)
+
+CONTIG: NODE_63_length_557_cov_0.168103 (557bp)
+		This contig is unaligned. (557 bp)
+		Unaligned bases: 557 (number of Ns: 0)
+
+CONTIG: NODE_64_length_549_cov_0.188596 (549bp)
+		This contig is unaligned. (549 bp)
+		Unaligned bases: 549 (number of Ns: 0)
+
+CONTIG: NODE_65_length_542_cov_0.240535 (542bp)
+		This contig is unaligned. (542 bp)
+		Unaligned bases: 542 (number of Ns: 0)
+
+CONTIG: NODE_66_length_538_cov_0.164045 (538bp)
+		This contig is unaligned. (538 bp)
+		Unaligned bases: 538 (number of Ns: 0)
+
+CONTIG: NODE_67_length_531_cov_0.474886 (531bp)
+		This contig is unaligned. (531 bp)
+		Unaligned bases: 531 (number of Ns: 0)
+
+CONTIG: NODE_68_length_526_cov_0.277136 (526bp)
+		This contig is unaligned. (526 bp)
+		Unaligned bases: 526 (number of Ns: 0)
+
+CONTIG: NODE_69_length_515_cov_0.189573 (515bp)
+		This contig is unaligned. (515 bp)
+		Unaligned bases: 515 (number of Ns: 0)
+
+CONTIG: NODE_70_length_513_cov_39.897619 (513bp)
+		This contig is unaligned. (513 bp)
+		Unaligned bases: 513 (number of Ns: 0)
+
+CONTIG: NODE_71_length_512_cov_0.217184 (512bp)
+		This contig is unaligned. (512 bp)
+		Unaligned bases: 512 (number of Ns: 0)
+
+CONTIG: NODE_72_length_511_cov_0.155502 (511bp)
+		This contig is unaligned. (511 bp)
+		Unaligned bases: 511 (number of Ns: 0)
+
+Analyzing coverage...
+Writing SNPs into /media/chris/seagate1/chris/MULKSG/quast_mulksgspadesonly/quast_results_ctgs_S_aureus_HiSeq/contigs_reports/minimap_output/mulksg_ctg.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /media/chris/seagate1/chris/MULKSG/quast_mulksgspadesonly/quast_results_ctgs_S_aureus_HiSeq/contigs_reports/minimap_output/mulksg_ctg.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 70 + 2 part
+Half Unaligned Contigs with Misassemblies: 2
+Unaligned Contig Bases: 2847294
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 8625
+
+	SNPs: 213
+	Insertions: 32
+	Deletions: 15
+

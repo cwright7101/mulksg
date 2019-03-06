@@ -1,0 +1,15 @@
+reference chromosomes:
+	gi_117617447_ref_NC_008570.1_ (total length: 4744448 bp, total length without N's: 4744448 bp, maximal covered length: 1838729 bp)
+
+total genome size: 4744448
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+spades_ctg               | 38.755    | 1.000       | 724       | -         | -         | -         | -         |
+mulksg_ctg               | 38.753    | 1.000       | 723       | -         | -         | -         | -         |

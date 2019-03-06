@@ -1,0 +1,51 @@
+Assembly	spades_scf	mulksg_scf
+# contigs (>= 0 bp)	1491	1839
+# contigs (>= 1000 bp)	94	94
+# contigs (>= 5000 bp)	52	52
+# contigs (>= 10000 bp)	46	46
+# contigs (>= 25000 bp)	39	39
+# contigs (>= 50000 bp)	30	30
+Total length (>= 0 bp)	5729366	5840731
+Total length (>= 1000 bp)	5285075	5285214
+Total length (>= 5000 bp)	5195704	5195704
+Total length (>= 10000 bp)	5153776	5153776
+Total length (>= 25000 bp)	5055973	5055973
+Total length (>= 50000 bp)	4767420	4767420
+# contigs	176	186
+Largest contig	639080	639080
+Total length	5337384	5344001
+Reference length	5373121	5373121
+GC (%)	43.40	43.40
+Reference GC (%)	43.42	43.42
+N50	157629	157629
+NG50	157629	157629
+N75	97991	97991
+NG75	89451	89451
+L50	9	9
+LG50	9	9
+L75	19	19
+LG75	20	20
+# misassemblies	99	99
+# misassembled contigs	26	26
+Misassembled contigs length	4276309	4276309
+# local misassemblies	55	55
+# scaffold gap ext. mis.	0	0
+# scaffold gap loc. mis.	0	0
+# unaligned mis. contigs	3	3
+# unaligned contigs	123 + 40 part	134 + 39 part
+Unaligned length	1018227	1024932
+Genome fraction (%)	80.292	80.292
+Duplication ratio	1.001	1.001
+# N's per 100 kbp	1.84	1.83
+# mismatches per 100 kbp	649.35	649.32
+# indels per 100 kbp	20.17	20.17
+Largest alignment	189113	189113
+Total aligned length	4315940	4315852
+NA50	44793	44793
+NGA50	44793	44793
+NA75	14269	13503
+NGA75	13436	13436
+LA50	35	35
+LGA50	35	35
+LA75	84	85
+LGA75	86	86

@@ -1,0 +1,48 @@
+#!/bin/bash
+#MSUB -l partition=cab
+#MSUB -l nodes=6
+#MSUB -l walltime=04:30:00
+#MSUB -l gres=ignore
+#MSUB -q pbatch
+#MSUB -j oe
+#MSUB -o mulksg6Node.log
+#MSUB -l ttc=16
+#MSUB -d /home/wrig522/mulksg/
+#MSUB -l qos=normal
+
+# export EXEDIR=/home/wrig522/mulksg/SPAdes-3.13.0/
+# export DATADIR=/home/wrig522/full/TestData/
+# export RESULTDIR=/home/wrig522/mulksg/Expr_1-9-2019-TestData/
+
+echo 'Starting parallel runs on 6 nodes'
+
+mkdir -p ${RESULTDIR}
+
+touch ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}A_hydrophila_HiSeq/raw/frag_1.fastq -2 ${DATADIR}A_hydrophila_HiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_A_hydrophila_HiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log 
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}B_cereus_HiSeq/raw/frag_1.fastq -2 ${DATADIR}B_cereus_HiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_B_cereus_HiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}B_cereus_MiSeq/raw/frag_1.fastq -2 ${DATADIR}B_cereus_MiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_B_cereus_MiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}B_fragilis_HiSeq/raw/frag_1.fastq -2 ${DATADIR}B_fragilis_HiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_B_fragilis_HiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}M_abscessus_HiSeq/raw/frag_1.fastq -2 ${DATADIR}M_abscessus_HiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_M_abscessus_HiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}M_abscessus_MiSeq/raw/frag_1.fastq -2 ${DATADIR}M_abscessus_MiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_M_abscessus_MiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}R_sphaeroides_HiSeq/raw/frag_1.fastq -2 ${DATADIR}R_sphaeroides_HiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_R_sphaeroides_HiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}R_sphaeroides_MiSeq/raw/frag_1.fastq -2 ${DATADIR}R_sphaeroides_MiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_R_sphaeroides_MiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}S_aureus_HiSeq/raw/frag_1.fastq -2 ${DATADIR}S_aureus_HiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_S_aureus_HiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}V_cholerae_HiSeq/raw/frag_1.fastq -2 ${DATADIR}V_cholerae_HiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_V_cholerae_HiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}V_cholerae_MiSeq/raw/frag_1.fastq -2 ${DATADIR}V_cholerae_MiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_V_cholerae_MiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+/usr/bin/time -v srun -n6 ${EXEDIR}mulksg.py -1 ${DATADIR}X_axonopodis_HiSeq/raw/frag_1.fastq -2 ${DATADIR}X_axonopodis_HiSeq/raw/frag_2.fastq -o ${RESULTDIR}mulksg_6Node_X_axonopodis_HiSeq -t 16 --careful -k 21,33,45,57,69,81,93 > ${RESULTDIR}stdout.log 2>> ${RESULTDIR}timing_err6.log
+
+echo 'Done'
+date

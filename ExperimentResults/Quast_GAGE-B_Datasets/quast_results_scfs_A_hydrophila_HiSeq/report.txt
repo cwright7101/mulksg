@@ -1,0 +1,46 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     spades_scf     mulksg_scf   
+# contigs (>= 0 bp)          3726           3979         
+# contigs (>= 1000 bp)       36             37           
+# contigs (>= 5000 bp)       17             17           
+# contigs (>= 10000 bp)      17             17           
+# contigs (>= 25000 bp)      14             14           
+# contigs (>= 50000 bp)      13             13           
+Total length (>= 0 bp)       6203035        6291814      
+Total length (>= 1000 bp)    4911542        4912423      
+Total length (>= 5000 bp)    4884523        4884523      
+Total length (>= 10000 bp)   4884523        4884523      
+Total length (>= 25000 bp)   4823200        4823200      
+Total length (>= 50000 bp)   4777123        4777123      
+# contigs                    422            440          
+Largest contig               1079605        1079605      
+Total length                 5150754        5163104      
+Reference length             4744448        4744448      
+GC (%)                       61.63          61.65        
+Reference GC (%)             61.55          61.55        
+N50                          656974         656974       
+NG50                         656974         656974       
+N75                          289572         289572       
+NG75                         491389         491389       
+L50                          3              3            
+LG50                         3              3            
+L75                          6              6            
+LG75                         5              5            
+# misassemblies              6              6            
+# misassembled contigs       3              3            
+Misassembled contigs length  366493         366493       
+# local misassemblies        45             45           
+# scaffold gap ext. mis.     0              0            
+# scaffold gap loc. mis.     0              0            
+# unaligned mis. contigs     14             14           
+# unaligned contigs          399 + 18 part  418 + 17 part
+Unaligned length             3314893        3327363      
+Genome fraction (%)          38.682         38.677       
+Duplication ratio            1.000          1.000        
+# N's per 100 kbp            5.73           5.71         
+# mismatches per 100 kbp     4036.37        4036.73      
+# indels per 100 kbp         38.09          38.09        
+Largest alignment            61358          61358        
+Total aligned length         1835757        1835637      
+NGA50                        -              -            

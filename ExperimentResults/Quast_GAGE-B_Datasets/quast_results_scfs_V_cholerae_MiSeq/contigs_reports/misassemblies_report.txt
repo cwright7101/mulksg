@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     spades_scf  mulksg_scf
+# misassemblies              1           1         
+  # contig misassemblies     1           1         
+    # c. relocations         1           1         
+    # c. translocations      0           0         
+    # c. inversions          0           0         
+  # scaffold misassemblies   0           0         
+    # s. relocations         0           0         
+    # s. translocations      0           0         
+    # s. inversions          0           0         
+# misassembled contigs       1           1         
+Misassembled contigs length  166802      166802    
+# local misassemblies        1           1         
+# scaffold gap ext. mis.     1           1         
+# scaffold gap loc. mis.     1           1         
+# unaligned mis. contigs     2           2         
+# mismatches                 299         287       
+# indels                     61          61        
+    # indels (<= 5 bp)       56          56        
+    # indels (> 5 bp)        5           5         
+Indels length                268         268       

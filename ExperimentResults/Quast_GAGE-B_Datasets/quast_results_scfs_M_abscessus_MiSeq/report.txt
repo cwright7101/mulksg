@@ -1,0 +1,33 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    spades_scf   mulksg_scf 
+# contigs (>= 0 bp)         325          316        
+# contigs (>= 1000 bp)      44           34         
+# contigs (>= 5000 bp)      42           31         
+# contigs (>= 10000 bp)     38           27         
+# contigs (>= 25000 bp)     34           24         
+# contigs (>= 50000 bp)     29           22         
+Total length (>= 0 bp)      5252771      5253085    
+Total length (>= 1000 bp)   5137813      5137794    
+Total length (>= 5000 bp)   5131378      5129903    
+Total length (>= 10000 bp)  5106852      5102802    
+Total length (>= 25000 bp)  5032670      5044674    
+Total length (>= 50000 bp)  4867784      4990458    
+# contigs                   74           62         
+Largest contig              549292       813624     
+Total length                5156406      5154820    
+Reference length            23319        23319      
+GC (%)                      64.00        64.01      
+Reference GC (%)            67.86        67.86      
+N50                         213410       340265     
+NG50                        549292       813624     
+N75                         110851       151527     
+NG75                        549292       813624     
+L50                         9            5          
+LG50                        1            1          
+L75                         18           11         
+LG75                        1            1          
+# unaligned contigs         74 + 0 part  62 + 0 part
+Unaligned length            5156406      5154820    
+# N's per 100 kbp           1.94         5.70       
+NGA50                       -            -          

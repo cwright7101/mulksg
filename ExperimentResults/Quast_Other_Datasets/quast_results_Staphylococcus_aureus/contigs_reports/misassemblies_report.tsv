@@ -1,0 +1,21 @@
+Assembly	SPAdes_contigs	SPAdes_scaffolds	MULKSG_contigs	MULKSG_scaffolds
+# misassemblies	52	51	52	51
+  # contig misassemblies	52	51	52	51
+    # c. relocations	52	51	52	51
+    # c. translocations	0	0	0	0
+    # c. inversions	0	0	0	0
+  # scaffold misassemblies	0	0	0	0
+    # s. relocations	0	0	0	0
+    # s. translocations	0	0	0	0
+    # s. inversions	0	0	0	0
+# misassembled contigs	20	18	20	18
+Misassembled contigs length	2424627	2390006	2424627	2390006
+# local misassemblies	115	114	115	114
+# scaffold gap ext. mis.	0	0	0	0
+# scaffold gap loc. mis.	0	3	0	3
+# unaligned mis. contigs	0	0	0	0
+# mismatches	39217	39218	39217	39218
+# indels	1392	1395	1392	1395
+    # indels (<= 5 bp)	1235	1237	1235	1237
+    # indels (> 5 bp)	157	158	157	158
+Indels length	6204	6289	6204	6289

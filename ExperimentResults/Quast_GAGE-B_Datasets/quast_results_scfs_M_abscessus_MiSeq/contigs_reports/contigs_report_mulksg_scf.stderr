@@ -1,0 +1,11 @@
+[M::mm_idx_gen::0.001*3.91] collected minimizers
+[M::mm_idx_gen::0.003*2.40] sorted minimizers
+[M::main::0.003*2.39] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*2.26] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*2.15] distinct minimizers: 2353 (100.00% are singletons); average occurrences: 1.000; average spacing: 9.910
+[M::worker_pipeline::0.122*1.03] mapped 62 sequences
+[M::main] Version: 2.11-r797
+[M::main] CMD: /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /media/chris/seagate1/chris/MULKSG/quast_mulksgspadesonly/quast_results_scfs_M_abscessus_MiSeq/quast_corrected_input/reference.fa /media/chris/seagate1/chris/MULKSG/quast_mulksgspadesonly/quast_results_scfs_M_abscessus_MiSeq/quast_corrected_input/mulksg_scf.fasta
+[M::main] Real time: 0.124 sec; CPU: 0.127 sec
+2  Nothing aligned for /media/chris/seagate1/chris/MULKSG/quast_mulksgspadesonly/quast_results_scfs_M_abscessus_MiSeq/quast_corrected_input/mulksg_scf.fasta

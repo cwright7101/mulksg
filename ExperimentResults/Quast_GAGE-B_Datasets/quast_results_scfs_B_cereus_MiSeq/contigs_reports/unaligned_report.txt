@@ -1,0 +1,8 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                       spades_scf  mulksg_scf
+# fully unaligned contigs      0           3         
+Fully unaligned length         0           1913      
+# partially unaligned contigs  5           5         
+Partially unaligned length     196944      196944    
+# N's                          782         782       

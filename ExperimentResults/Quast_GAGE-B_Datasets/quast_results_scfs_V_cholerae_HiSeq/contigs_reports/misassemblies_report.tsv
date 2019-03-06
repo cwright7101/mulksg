@@ -1,0 +1,21 @@
+Assembly	spades_scf	mulksg_scf
+# misassemblies	3	2
+  # contig misassemblies	3	2
+    # c. relocations	3	2
+    # c. translocations	0	0
+    # c. inversions	0	0
+  # scaffold misassemblies	0	0
+    # s. relocations	0	0
+    # s. translocations	0	0
+    # s. inversions	0	0
+# misassembled contigs	2	2
+Misassembled contigs length	523776	516808
+# local misassemblies	3	3
+# scaffold gap ext. mis.	1	1
+# scaffold gap loc. mis.	0	0
+# unaligned mis. contigs	3	3
+# mismatches	271	252
+# indels	69	69
+    # indels (<= 5 bp)	65	65
+    # indels (> 5 bp)	4	4
+Indels length	110	110

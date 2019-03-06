@@ -1,0 +1,17 @@
+reference chromosomes:
+	NC_007795.1 (total length: 2821361 bp, total length without N's: 2821360 bp, maximal covered length: 2482658 bp)
+
+total genome size: 2821361
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+SPAdes_contigs           | 87.995    | 1.003       | 143       | -         | -         | -         | -         |
+SPAdes_scaffolds         | 87.986    | 1.003       | 143       | -         | -         | -         | -         |
+MULKSG_contigs           | 87.995    | 1.003       | 143       | -         | -         | -         | -         |
+MULKSG_scaffolds         | 87.986    | 1.003       | 143       | -         | -         | -         | -         |
