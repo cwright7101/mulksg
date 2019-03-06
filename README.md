@@ -5,3 +5,6 @@ Currently MULKSG will create all graphs, except the highest value k graph, at th
 As can be seen from the paper to AlCoB 2019 (https://drive.google.com/file/d/1VhTjF9L_5BRb_mtb6goHMAZ3jyUVGrKm/view), if there are limited resources on your desktop computer the speed is decreased. 
 
 If parallel doesn't use the right number of threads, export OMP_NUM_THREADS XX, then add -x OMP_NUM_THREADS to the command line.
+
+
+To build, cd to the spades_src folder, then type make. This will make both spades version 3.13.0 and mulksg.py. They share the same base code at this point.
