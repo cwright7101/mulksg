@@ -8,3 +8,7 @@ If parallel doesn't use the right number of threads, export OMP_NUM_THREADS XX, 
 
 
 To build, cd to the spades_src folder, then type make. This will make both spades version 3.13.0 and mulksg.py. They share the same base code at this point.
+
+
+
+### As a note: After doing many more experiments (after publication), this works really well when there are a lot of K values, but when there are not very many K values used, it is fast but the quality is not as good as SPAdes.
